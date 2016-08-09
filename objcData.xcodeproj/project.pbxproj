@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE640C5D1D599DF000652BAC /* objcData.h in Headers */ = {isa = PBXBuildFile; fileRef = FE640C5C1D599DF000652BAC /* objcData.h */; };
+		FE640C5D1D599DF000652BAC /* objcData.h in Headers */ = {isa = PBXBuildFile; fileRef = FE640C5C1D599DF000652BAC /* objcData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE640C641D599DF100652BAC /* objcData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640C591D599DF000652BAC /* objcData.framework */; };
 		FE640C691D599DF100652BAC /* objcDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE640C681D599DF100652BAC /* objcDataTests.m */; };
+		FE640C761D599E0C00652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE640C731D599E0C00652BAC /* Cartfile */; };
+		FE640C771D599E0C00652BAC /* objcData.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE640C741D599E0C00652BAC /* objcData.podspec */; };
+		FE640C7B1D599E4900652BAC /* NSData+VDConcatenate.h in Headers */ = {isa = PBXBuildFile; fileRef = FE640C791D599E4900652BAC /* NSData+VDConcatenate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE640C7C1D599E4900652BAC /* NSData+VDConcatenate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE640C7A1D599E4900652BAC /* NSData+VDConcatenate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 		FE640C631D599DF100652BAC /* objcDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE640C681D599DF100652BAC /* objcDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcDataTests.m; sourceTree = "<group>"; };
 		FE640C6A1D599DF100652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE640C731D599E0C00652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE640C741D599E0C00652BAC /* objcData.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcData.podspec; sourceTree = "<group>"; };
+		FE640C751D599E0C00652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE640C791D599E4900652BAC /* NSData+VDConcatenate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+VDConcatenate.h"; sourceTree = "<group>"; };
+		FE640C7A1D599E4900652BAC /* NSData+VDConcatenate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+VDConcatenate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,9 @@
 				FE640C5B1D599DF000652BAC /* objcData */,
 				FE640C671D599DF100652BAC /* objcDataTests */,
 				FE640C5A1D599DF000652BAC /* Products */,
+				FE640C731D599E0C00652BAC /* Cartfile */,
+				FE640C741D599E0C00652BAC /* objcData.podspec */,
+				FE640C751D599E0C00652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +85,8 @@
 			children = (
 				FE640C5C1D599DF000652BAC /* objcData.h */,
 				FE640C5E1D599DF000652BAC /* Info.plist */,
+				FE640C791D599E4900652BAC /* NSData+VDConcatenate.h */,
+				FE640C7A1D599E4900652BAC /* NSData+VDConcatenate.m */,
 			);
 			path = objcData;
 			sourceTree = "<group>";
@@ -94,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE640C5D1D599DF000652BAC /* objcData.h in Headers */,
+				FE640C7B1D599E4900652BAC /* NSData+VDConcatenate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE640C771D599E0C00652BAC /* objcData.podspec in Resources */,
+				FE640C761D599E0C00652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE640C7C1D599E4900652BAC /* NSData+VDConcatenate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
